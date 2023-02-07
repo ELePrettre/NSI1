@@ -5,8 +5,7 @@ Le langage Javascript n’est pas au “programme” de la spécialité NSI, de 
 
 
 1. **Introduction à JavaScript**
-
-
+.
 
     1.1. **Qu'est-ce que JavaScript et à quoi sert-il ?**
 
@@ -153,6 +152,8 @@ Il est important de comprendre comment utiliser les opérateurs arithmétiques e
 
 
 2. **Les instructions et les structures de contrôle **
+.
+
     2.1. **Les instructions simples et les blocs d'instructions**
 
 En JavaScript, les instructions simples sont des lignes de code qui effectuent une tâche unique. Par exemple, une déclaration de variable est une instruction simple qui déclare une variable et lui assigne une valeur.
@@ -316,6 +317,8 @@ Les fonctions en JavaScript sont très utiles pour encapsuler du code réutilisa
 
 
 3. **Les tableaux et les objets :**
+. 
+
     3.1. **Tableaux en JavaScript**
 
 Les tableaux en JavaScript permettent de stocker plusieurs valeurs sous une même variable. Les tableaux sont définis à l'aide de crochets **[]** et peuvent contenir n'importe quel type de données, y compris d'autres tableaux.
@@ -435,6 +438,8 @@ Dans cet exemple, nous avons un objet **voiture** avec les propriétés **marque
 
 
 4. **Manipulation du Document Object Model (DOM) :**
+.
+
     4.1. **Qu'est-ce que le DOM ?**
 
 Le DOM (Document Object Model) est une représentation en arbre des éléments et des contenus d'une page web. Il permet aux développeurs de manipuler les éléments HTML d'une page web à l'aide de JavaScript.
@@ -822,6 +827,8 @@ Ce code crée une div avec un style initial et un bouton qui, lorsqu'il est cliq
 
 
 5. **Utilisation de bibliothèques et frameworks JavaScript :**
+.
+
     5.1. **Introduction aux bibliothèques JavaScript (jQuery)**
 
 jQuery est une bibliothèque JavaScript populaire qui facilite la manipulation du Document Object Model (DOM) et l'ajout d'interactivité à des pages web. Il fournit une interface simple et concise pour sélectionner, manipuler et animer des éléments HTML, ainsi que pour effectuer des requêtes AJAX pour charger des données à partir d'un serveur sans recharger la page.

@@ -1,24 +1,11 @@
-# NSI1
-NSI 1ère
-
-
 **Découvrir le Javascript **
 
 
 Le langage Javascript n’est pas au “programme” de la spécialité NSI, de manière plus générale en spé NSI on apprend à coder plus que des langages. 
 
-Table des matières
-
-
-[TOC]
-
-
-
-
-
 
 1. **Introduction à JavaScript**
-    1. **Qu'est-ce que JavaScript et à quoi sert-il ?**
+    1.1. **Qu'est-ce que JavaScript et à quoi sert-il ?**
 
 JavaScript est un langage de programmation de scripts côté client. Il est utilisé pour créer des pages web **interactives** et **dynamiques** en ajoutant des fonctionnalités telles que les **animations**, les **formulaires interactifs**, les **scripts de validation**, les **galeries d'images,** etc. sans avoir besoin de charger une nouvelle page du serveur.
 
@@ -26,7 +13,7 @@ JavaScript peut être utilisé conjointement avec HTML et CSS pour créer des pa
 
 
 
-    2. **Comment utiliser JavaScript avec HTML et CSS ?**
+    1.2. **Comment utiliser JavaScript avec HTML et CSS ?**
 
 Pour utiliser JavaScript avec HTML et CSS, vous devez inclure le code JavaScript dans une page HTML. Il existe plusieurs façons de faire cela, mais les deux méthodes les plus courantes sont les suivantes :
 
@@ -78,7 +65,7 @@ Vous pouvez utiliser JavaScript pour interagir avec le contenu HTML et CSS de vo
 
 
 
-    3. **Variables et types de données de base en JavaScript**
+    1.3. **Variables et types de données de base en JavaScript**
 
 En JavaScript, les variables sont des emplacements mémoire où vous pouvez stocker des valeurs, telles que des nombres, des chaînes de caractères, des booléens, etc. Les variables sont déclarées à l'aide de la mot-clé "**var**", "**let**" ou "**const**" et peuvent être affectées à une valeur en utilisant le signe d'affectation "=".
 
@@ -106,7 +93,7 @@ Il est important de comprendre ces types de données de base en JavaScript, car 
 
 
 
-    4. **Opérateurs arithmétiques et logiques**
+    1.4. **Opérateurs arithmétiques et logiques**
 
 En JavaScript, les opérateurs arithmétiques permettent d'effectuer des opérations mathématiques simples telles que l'addition, la soustraction, la multiplication et la division sur des nombres. Les principaux opérateurs arithmétiques sont les suivants :
 
@@ -139,9 +126,9 @@ Les opérateurs logiques en JavaScript permettent de faire des comparaisons entr
 1. Égalité (==)
 2. Inégalité (!=)
 3. Supériorité strictement (>)
-4. Infériorité strictement (<)
+4. Infériorité strictement (&lt;)
 5. Supériorité ou égalité (>=)
-6. Infériorité ou égalité (<=)
+6. Infériorité ou égalité (&lt;=)
 
 Voici quelques exemples d'utilisation des opérateurs logiques :
 
@@ -163,7 +150,7 @@ Il est important de comprendre comment utiliser les opérateurs arithmétiques e
 
 
 2. **Les instructions et les structures de contrôle **
-    1. **Les instructions simples et les blocs d'instructions**
+    2.1. **Les instructions simples et les blocs d'instructions**
 
 En JavaScript, les instructions simples sont des lignes de code qui effectuent une tâche unique. Par exemple, une déclaration de variable est une instruction simple qui déclare une variable et lui assigne une valeur.
 
@@ -194,7 +181,7 @@ Les blocs d'instructions sont souvent utilisés dans des structures de contrôle
 
 
 
-    2. **Les structures conditionnelles (if/else)**
+    2.2. **Les structures conditionnelles (if/else)**
 
 Les structures conditionnelles en JavaScript permettent d'exécuter un bloc d'instructions spécifique en fonction d'une condition déterminée. La structure la plus courante est la structure **if/else**.
 
@@ -232,7 +219,7 @@ Il est important de comprendre comment utiliser les structures conditionnelles e
 
 
 
-    3. **Boucles (for, while)**
+    2.3. **Boucles (for, while)**
 
 Les boucles en JavaScript permettent d'exécuter un bloc d'instructions plusieurs fois. Les boucles les plus courantes sont la boucle **for** et la boucle **while**.
 
@@ -291,7 +278,7 @@ Il est important de comprendre comment utiliser les boucles en JavaScript, car e
 
 
 
-    4. **Fonctions en JavaScript **
+    2.4. **Fonctions en JavaScript **
 
 Les fonctions en JavaScript permettent de regrouper des instructions en un bloc que l'on peut appeler plusieurs fois. Elles sont définies à l'aide de la syntaxe suivante :
 
@@ -326,7 +313,7 @@ Les fonctions en JavaScript sont très utiles pour encapsuler du code réutilisa
 
 
 3. **Les tableaux et les objets :**
-    1. **Tableaux en JavaScript**
+    3.1. **Tableaux en JavaScript**
 
 Les tableaux en JavaScript permettent de stocker plusieurs valeurs sous une même variable. Les tableaux sont définis à l'aide de crochets **[]** et peuvent contenir n'importe quel type de données, y compris d'autres tableaux.
 
@@ -350,7 +337,7 @@ Les tableaux en JavaScript sont très utiles pour stocker et manipuler des colle
 
 
 
-    2. **Parcours des tableaux**
+    3.2. **Parcours des tableaux**
 
 Il existe plusieurs façons de parcourir les tableaux en JavaScript. La méthode la plus courante est d'utiliser une boucle **for** ou une boucle **for...of**.
 
@@ -386,7 +373,7 @@ Il existe également d'autres méthodes pour parcourir les tableaux, telles que 
 
 
 
-    3. **Objets en JavaScript**
+    3.3. **Objets en JavaScript**
 
 Les objets en JavaScript sont des structures de données permettant de stocker des propriétés et des méthodes associées à un objet. Les objets sont définis à l'aide de accolades **{}** et les propriétés sont définies en utilisant la syntaxe **nomDePropriete: valeur**.
 
@@ -414,7 +401,7 @@ Les objets en JavaScript sont très utiles pour modéliser des objets complexes 
 
 
 
-    4. **Propriétés et méthodes des objets**
+    3.4. **Propriétés et méthodes des objets**
 
 Les propriétés d'un objet sont des variables associées à un objet qui peuvent stocker des données. Elles peuvent être accédées et modifiées en utilisant la notation point **.** suivie du nom de la propriété.
 
@@ -445,7 +432,7 @@ Dans cet exemple, nous avons un objet **voiture** avec les propriétés **marque
 
 
 4. **Manipulation du Document Object Model (DOM) :**
-    1. **Qu'est-ce que le DOM ?**
+    4.1. **Qu'est-ce que le DOM ?**
 
 Le DOM (Document Object Model) est une représentation en arbre des éléments et des contenus d'une page web. Il permet aux développeurs de manipuler les éléments HTML d'une page web à l'aide de JavaScript.
 
@@ -455,7 +442,7 @@ Le DOM est un standard qui définit comment les pages web peuvent être programm
 
 
 
-    2. **Comment manipuler les éléments HTML avec JavaScript ?**
+    4.2. **Comment manipuler les éléments HTML avec JavaScript ?**
 
 Il y a plusieurs manières de manipuler les éléments HTML avec JavaScript, mais voici quelques méthodes courantes :
 
@@ -700,7 +687,7 @@ element.style.top = "100px";
 
 
 
-    3. **Événements et gestion des événements**
+    4.3. **Événements et gestion des événements**
 
 Les événements en JavaScript sont des actions qui se produisent sur des éléments HTML, telles que le clic sur un bouton, le chargement de la page, le survol de la souris, etc. Pour gérer ces événements, nous pouvons utiliser la méthode **addEventListener** sur un élément HTML sélectionné :
 
@@ -801,7 +788,7 @@ document.addEventListener("keydown", function(event) {
 
 
 
-    4. **Modification du style et de la taille des éléments HTML avec JavaScript**
+    4.4. **Modification du style et de la taille des éléments HTML avec JavaScript**
 
 Pour modifier le style et la taille des éléments HTML avec JavaScript, vous pouvez utiliser la propriété "style" des éléments sélectionnés. Par exemple, pour changer la couleur d'arrière-plan d'un élément, vous pouvez utiliser la propriété "style.backgroundColor". Pour changer la largeur d'un élément, vous pouvez utiliser la propriété "style.width".
 
@@ -832,7 +819,7 @@ Ce code crée une div avec un style initial et un bouton qui, lorsqu'il est cliq
 
 
 5. **Utilisation de bibliothèques et frameworks JavaScript :**
-    1. **Introduction aux bibliothèques JavaScript (jQuery)**
+    5.1. **Introduction aux bibliothèques JavaScript (jQuery)**
 
 jQuery est une bibliothèque JavaScript populaire qui facilite la manipulation du Document Object Model (DOM) et l'ajout d'interactivité à des pages web. Il fournit une interface simple et concise pour sélectionner, manipuler et animer des éléments HTML, ainsi que pour effectuer des requêtes AJAX pour charger des données à partir d'un serveur sans recharger la page.
 
@@ -947,7 +934,7 @@ Voici d’autres exemples d'utilisation de la bibliothèque jQuery :
 
 
 
-    2. **Introduction aux frameworks JavaScript (React, Angular, Vue.js)**
+    5.2. **Introduction aux frameworks JavaScript (React, Angular, Vue.js)**
 
 Les frameworks JavaScript sont des bibliothèques logicielles qui fournissent une structure de développement pour les applications web. Les trois frameworks les plus populaires sont React, Angular et Vue.js.
 

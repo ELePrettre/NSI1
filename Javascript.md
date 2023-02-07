@@ -5,6 +5,9 @@ Le langage Javascript n’est pas au “programme” de la spécialité NSI, de 
 
 
 1. **Introduction à JavaScript**
+
+
+
     1.1. **Qu'est-ce que JavaScript et à quoi sert-il ?**
 
 JavaScript est un langage de programmation de scripts côté client. Il est utilisé pour créer des pages web **interactives** et **dynamiques** en ajoutant des fonctionnalités telles que les **animations**, les **formulaires interactifs**, les **scripts de validation**, les **galeries d'images,** etc. sans avoir besoin de charger une nouvelle page du serveur.
